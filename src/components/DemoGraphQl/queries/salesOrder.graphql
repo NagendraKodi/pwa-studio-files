@@ -1,0 +1,9 @@
+query {
+  salesOrder(id: 1) {
+    increment_id
+    grand_total
+    customer_name
+    is_guest_customer	    
+    address_array
+  }
+}
