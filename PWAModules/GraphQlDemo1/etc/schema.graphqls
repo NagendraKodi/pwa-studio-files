@@ -1,0 +1,10 @@
+
+type Query {
+    graphqldemo1: graphQlDemo1 @resolver(class: "PWAModules\\GraphQlDemo1\\Model\\Resolver\\Profile") @doc(description: "graphQlDemo1 to show the static content from Magento 2 to PWA Studio")
+}
+
+type graphQlDemo1 @doc(description: "graphQlDemo1 to show the static content from Magento 2 to PWA Studio") {
+    id: Int
+    author: String
+    module_name: String
+}
